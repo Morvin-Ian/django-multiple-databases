@@ -1,0 +1,4 @@
+SECRET_KEY=key
+DB_NAME=name
+DB_PASSWORD=mypass
+DB_USER=user
