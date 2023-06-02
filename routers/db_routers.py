@@ -39,7 +39,7 @@ class AccountsRouter:
         return None
 
 class CoreRouter:
-    route_app_labels = {'core'}
+    route_app_labels = {'sessions', 'core'}
 
     def db_for_read(self, model, **hints):
         """

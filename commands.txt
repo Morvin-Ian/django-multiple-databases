@@ -1,2 +1,0 @@
-docker build --tag django-multiple-db .
-docker run --publish 8000:8000 django-multiple-db
