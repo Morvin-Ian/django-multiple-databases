@@ -1,6 +1,6 @@
-# django-multiple-database
+## django-multiple-database
 
-1: Configure the Databases
+### 1: Configure the Databases
     In your Django project's settings.py file, define the configurations for your multiple databases. 
 
     DATABASES = {
