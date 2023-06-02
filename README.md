@@ -22,7 +22,7 @@
         }
     }
 
-2: Create Database Router
+### 2: Create Database Router
     Next, you need to create a database router to handle the database routing logic. The router determines which database to use for each database operation. 
 
 class MultiDBRouter:
@@ -48,6 +48,6 @@ class MultiDBRouter:
             return db == 'second_db'
         return db == 'default'
 
-3: Configure Database Router in Settings
+### 3: Configure Database Router in Settings
 
     DATABASE_ROUTERS = ['project_name.routers.MultiDBRouter']
