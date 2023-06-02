@@ -1,7 +1,7 @@
 ## django-multiple-database
 
 ### 1: Configure the Databases
-    In your Django project's settings.py file, define the configurations for your multiple databases. 
+In the settings.py file, define the configurations for the multiple databases. 
 
     DATABASES = {
         'default': {
@@ -23,7 +23,7 @@
     }
 
 ### 2: Create Database Router
-    Next, you need to create a database router to handle the database routing logic. The router determines which database to use for each database operation. 
+Next, you need to create a database router to handle the database routing logic. The router determines which database to use for each database operation. 
 
 class MultiDBRouter:
     def db_for_read(self, model, **hints):
